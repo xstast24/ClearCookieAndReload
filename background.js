@@ -1,7 +1,7 @@
 // Forked from blikenoother's repo: https://github.com/blikenoother/ClearCookieAndReload
 // triggered when user clicks on installed extension icon
 chrome.browserAction.onClicked.addListener(function (tab) {
-    let domain = 'prehraj.to';
+    let domain = 'prehrajto.cz';
     console.log('Clearing cookies for ', domain);
 
     // clear all cookies for the current url
